@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+
+    <body>
+      <div class="container">
+      
+
+
+
+
+        <nav class="nav-extended">
+          <div class="nav-wrapper">
+            <a href="#" class="brand-logo">Current</a>
+            <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+              <li><a href=""></a></li>
+              <li><a href=""></a></li>
+             
+              <li><a href="sass.html"><i class="material-icons">search</i></a></li>
+            </ul>
+            <ul class="side-nav" id="mobile-demo">
+              <li><a href=""></a></li>
+              <li><a href=""></a></li>
+              
+              <li><a href="sass.html"><i class="material-icons">search</i></a></li>
+            </ul>
+          </div>
+          
+          <div class="nav-content">
+            <ul class="tabs tabs-transparent">
+              <li class="tab"><a id="mycurrent" class="active" href="#current">Current</a></li>
+              <li class="tab"><a href="#menu">Menu</a></li>
+              
+              <li class="tab"><a href="#gainlose">Gain&Lose</a></li>
+              <li class="tab"><a href="#suggestion">Suggestion</a></li>
+              <li class="tab"><a href="#goal">goal</a></li>
+              <li class="tab"><a href="#chart">chart</a></li>
+            </ul>
+          </div>
+        </nav>
+
+        <div id="current" class="col s12">
+          <iframe src="/current.html" width="100%" height="500px"></iframe>
+        </div>
+
+        <div id="menu" class="col s12">
+          <iframe src="/menu.html" width="100%" height="500px"></iframe>
+        </div>
+          
+        <div id="gainlose" class="col s12">
+          <iframe src="/gainlose.html" width="100%" height="500px"></iframe>
+        </div>
+
+        <div id="suggestion" class="col s12">
+          <iframe src="/suggestion.html" width="100%" height="500px"></iframe>
+        </div>
+
+        <div id="goal" class="col s12">
+          <iframe src="/goal.html" width="100%" height="500px"></iframe>
+        </div>
+
+        <div id="chart" class="col s12">
+          <iframe src="/chart.html" width="100%" height="500px"></iframe>
+        </div>
+        
+
+
+
+
+        
+
+        <!-- Page Content goes here -->
+      </div>
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
+      <script>
+        var loadcurrent = function() {
+          $("#mycurrent").click();
+        }
+      </script>
+
+      <a href="#current" class="waves-effect waves-light btn" style="position:fixed; left:10px; bottom:20px;" onclick="loadcurrent()">current</a>
+
+      <div class="fixed-action-btn">
+        <a href="create_new_menu.html" class="btn-floating btn-large red">
+          <i class="large material-icons">mode_edit</i>
+        </a>
+        <ul>
+          
+        </ul>
+      </div>
+        
+
+    </body>
+  </html>
+        
